@@ -1,12 +1,13 @@
 package com.blz.shubham.employeewages;
 
-public class CalculatingWagesForAMonth{
- public static void main(String args[]) {
+public class EmployeeWages{
+
+    public static void main(String args[]) {
 
         final int PART_TIME = 1;
         final int FULL_TIME = 2;
         final int Wage_Per_Hr = 20;
-        final int Working_Days = 20; //Assume 20 Working Day per Month
+        final int Working_Days = 20;
 
         int totalWage = 0;
         for(int day=1;day<=Working_Days;day++)

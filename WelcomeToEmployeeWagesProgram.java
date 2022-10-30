@@ -1,5 +1,5 @@
 package com.blz.shubham.employeewages;
-//- Assume Wage per Hour is 20 - Assume Full Day Hour is 8
+
 public class PartTimeEmployeeAndWage{
     public static void main(String args[])
     {
@@ -12,7 +12,7 @@ public class PartTimeEmployeeAndWage{
         if (empType == FULL_TIME)
     {
         System.out.println("Employee is Present Full Time");
-        workingHours = 8;
+        workingHours = 8; //Assume Part time Hour is 8
     }
         else if (empType == PART_TIME)
         {
